@@ -1,6 +1,6 @@
 # Traceglass privacy and data handling
 
-Version 0.1.0 · 3 October 2026
+Version 0.1.0 · 4 October 2026
 
 Traceglass operates locally in your browser. It has no account system, analytics, advertising, telemetry, cloud backend or AI service. The extension does not send captured data to the developer or to another service.
 
@@ -27,3 +27,7 @@ Exporting creates a local JSON capture, HTML report or Markdown report. You choo
 This build declares a DevTools page and a toolbar action without host permissions or content scripts. It does not use Chrome's debugger permission, modify requests, inject code into websites or run background browsing surveillance. Its only background action opens the local workspace when you click the toolbar icon.
 
 The built extension blocks outgoing fetch/network connections from its own pages with `connect-src 'none'`. This does not block or alter the inspected website's traffic.
+
+## Questions and security reports
+
+Traceglass is maintained by [Dharmendra](https://github.com/dharmendrathinks). For questions about data handling, [open an issue](https://github.com/dharmendrathinks/traceglass/issues/new/choose) using fictional examples; do not attach private captures or credentials. Report suspected security vulnerabilities through [private vulnerability reporting](https://github.com/dharmendrathinks/traceglass/security/advisories/new).
