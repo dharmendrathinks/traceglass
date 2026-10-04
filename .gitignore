@@ -1,0 +1,12 @@
+node_modules/
+dist/
+artifacts/
+test-results/
+playwright-report/
+*.local
+.env
+.env.*
+*.har
+*.sqlite3*
+.DS_Store
+coverage/
